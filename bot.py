@@ -90,7 +90,7 @@ def handle_start(message):
             markup = types.InlineKeyboardMarkup()
             join_button1 = types.InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Official_InstaPLUS")
             join_button2 = types.InlineKeyboardButton("ᴏᴡɴᴇʀ", url=f"https://t.me/{OWNER}")
-            join_button3 = types.InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/JanviKapoorBot?startgroup=true")
+            join_button3 = types.InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/Url_Remover_Group_Bot?startgroup=true")
             markup.add(join_button1, join_button2)
             markup.add(join_button3)
             bot.send_message(message.chat.id, mess, reply_markup=markup)
